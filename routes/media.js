@@ -1,5 +1,5 @@
-var express = require('express');
-var router = express.Router();
+const express = require('express');
+const router = express.Router();
 const isBase64 = require('is-base64');
 const base64Img = require('base64-img');
 const fs = require('fs');
